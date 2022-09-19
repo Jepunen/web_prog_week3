@@ -20,6 +20,10 @@ table {
   width: 100%;
 }
 
+table td {
+  padding: 6px;
+}
+
 thead th {
   background-color: #b7d0ff;
   font-weight: bold;
@@ -28,7 +32,6 @@ thead th {
 }
 
 tbody th {
-  padding: 6px;
   border-bottom: 1px solid grey;
 }
 
