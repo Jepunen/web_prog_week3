@@ -42,9 +42,9 @@ async function getJSON() {
     td3.innerText = value;
     td4.innerText = ((value / population[count]) * 100).toFixed(2);
     if (((value / population[count]) * 100).toFixed(2) > 45) {
-      td4.style.backgroundColor = "#abffbd";
+      tr.style.backgroundColor = "#abffbd";
     } else if (((value / population[count]) * 100).toFixed(2) < 25) {
-      td4.style.backgroundColor = "#ff9e9e";
+      tr.style.backgroundColor = "#ff9e9e";
     }
 
     tr.appendChild(td1);
