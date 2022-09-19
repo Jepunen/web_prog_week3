@@ -22,6 +22,7 @@ table {
 
 table td {
   padding: 6px;
+  border-bottom: 1px solid grey;
 }
 
 thead th {
@@ -29,10 +30,6 @@ thead th {
   font-weight: bold;
   padding: 12px 0px 12px 6px;
   border-bottom: 2px solid gray;
-}
-
-tbody th {
-  border-bottom: 1px solid grey;
 }
 
 tbody tr:nth-child(even) {
